@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordo Pigmenti — покрас миниатюр и предзаказ фигурок 1/18</title>
+  <meta name="description" content="Профессиональная сборка и покрас армий Warhammer 40,000 и Horus Heresy, предзаказ коллекционных фигурок в масштабе 1/18.">
+  <meta name="theme-color" content="#0f0f12">
+  <meta name="color-scheme" content="dark">
+
+  
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="#top" aria-label="Ordo Pigmenti — в начало страницы">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">
+          <span class="logo__name">Ordo Pigmenti</span>
+          <span class="logo__tag">Мастерская миниатюр</span>
+        </span>
+      </a>
+
+      <a class="burger" href="#site-nav" aria-label="Открыть меню" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <a class="nav__backdrop" href="#!" tabindex="-1" aria-hidden="true"></a>
+        <div class="nav__panel">
+          <div class="nav__top">
+            <span class="nav__title">Меню</span>
+            <a class="nav__close" href="#!" aria-label="Закрыть меню">
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#preorder">Предзаказ</a></li>
+            <li><a class="nav__link" href="#services">Покрас</a></li>
+            <li><a class="nav__link" href="#process">Процесс</a></li>
+            <li><a class="nav__link" href="#gallery">Портфолио</a></li>
+            <li><a class="nav__link" href="#faq">Вопросы</a></li>
+          </ul>
+          <a class="btn btn--primary nav__cta" href="#contact">Оставить заявку</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page">
+    <main class="page__main" id="main">
+
+      <!-- ====================== HERO ====================== -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__bg media media--hero" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <div class="hero__inner">
+          <div class="hero__content">
+            <ul class="realms" aria-label="Вселенные, с которыми мы работаем">
+              <li class="realms__item realms__item--40k">Warhammer 40,000</li>
+              <li class="realms__item realms__item--hh">Horus Heresy</li>
+            </ul>
+            <h1 class="hero__title" id="hero-title">Из серого пластика - в легенды</h1>
+            <p class="hero__lead">Профессиональная сборка, покрас армий и эксклюзивные релизы фигурок 1/18</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#services">Заказать покрас</a>
+              <a class="btn btn--ghost" href="#preorder">Предзаказ миниатюр/фигурок</a>
+            </div>
+          </div>
+
+          <a class="hero__card" href="#preorder">
+            <span class="hero__thumb">
+              <span class="media media--primarch-front" role="img" aria-label="Фигурка Сангвиния в масштабе 1/18"></span>
+            </span>
+            <span class="hero__card-body">
+              <span class="hero__card-kicker">Открыт предзаказ</span>
+              <span class="hero__card-title">Сангвиний, Примарх IX легиона</span>
+              <span class="meter meter--total">
+                <span class="meter__label"><span>Забронировано</span><strong>347 из 500</strong></span>
+                <span class="meter__track" role="progressbar" aria-label="Забронировано 347 из 1000" aria-valuemin="0" aria-valuemax="500" aria-valuenow="347"><span class="meter__bar"></span></span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ====================== ПРЕИМУЩЕСТВА ====================== -->
+      <section class="perks" aria-labelledby="perks-title">
+        <h2 class="visually-hidden" id="perks-title">Преимущества мастерской</h2>
+        <ul class="perks__grid">
+          <li class="perk">
+            <svg class="perk__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4 11.5 12.5"/><path d="M11.5 12.5c-3-.4-5.5 1.2-5.5 4 0 1.8-.9 3-2 3.5 4.500 1 9.500-.5 9.500-4.500 0-1.200-.6-2.300-2-3z"/></svg>
+            <div class="perk__text">
+              <h3 class="perk__title">Аэрограф и кисть</h3>
+              <p>Плавные переходы аэрографом и ручная прорисовка мелких деталей.</p>
+            </div>
+          </li>
+          <li class="perk">
+            <svg class="perk__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.500"/></svg>
+            <div class="perk__text">
+              <h3 class="perk__title">Фотоотчёт на каждом этапе</h3>
+              <p>Присылаем фото до лака. Правки в рамках согласованной схемы бесплатны.</p>
+            </div>
+          </li>
+          <li class="perk">
+            <svg class="perk__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg>
+            <div class="perk__text">
+              <h3 class="perk__title">Надёжная упаковка</h3>
+              <p>Пузырчатая плёнка и жёсткие кейсы: модели доезжают без сколов.</p>
+            </div>
+          </li>
+          <li class="perk">
+            <svg class="perk__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div class="perk__text">
+              <h3 class="perk__title">Сроки в договоре</h3>
+              <p>Цену и дату готовности фиксируем письменно. Предоплата - от 30%.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ====================== ПРЕМИУМ ПРЕДЗАКАЗ ====================== -->
+      <section class="section" id="preorder" aria-labelledby="preorder-title">
+        <header class="section__head">
+          <h2 class="section__title" id="preorder-title">Премиум предзаказ</h2>
+          <p class="section__lead">Лимитированные фигурки 1/18 и наборы миниатюр для Warhammer 40000 и Horus Heresy.</p>
+        </header>
+
+        <div class="product">
+          <div class="viewer">
+            <input class="visually-hidden" type="radio" name="angle" id="angle-1" checked>
+            <input class="visually-hidden" type="radio" name="angle" id="angle-2">
+            <input class="visually-hidden" type="radio" name="angle" id="angle-3">
+            <input class="visually-hidden" type="radio" name="angle" id="angle-4">
+
+            <div class="viewer__stage">
+              <figure class="viewer__slide viewer__slide--1">
+                <div class="media media--primarch-front" role="img" aria-label="Фигурка Сангвиния, вид спереди"></div>
+                <figcaption class="viewer__caption">Вид спереди</figcaption>
+              </figure>
+              <figure class="viewer__slide viewer__slide--2">
+                <div class="media media--primarch-side" role="img" aria-label="Фигурка Сангвиния, вид сбоку"></div>
+                <figcaption class="viewer__caption">Вид сбоку</figcaption>
+              </figure>
+              <figure class="viewer__slide viewer__slide--3">
+                <div class="media media--primarch-back" role="img" aria-label="Фигурка Сангвиния, вид сзади"></div>
+                <figcaption class="viewer__caption">Вид сзади</figcaption>
+              </figure>
+              <figure class="viewer__slide viewer__slide--4">
+                <div class="media media--primarch-detail" role="img" aria-label="Детали брони и покраса"></div>
+                <figcaption class="viewer__caption">Детали</figcaption>
+              </figure>
+            </div>
+
+            <div class="viewer__thumbs" role="group" aria-label="Выбор ракурса">
+              <label class="thumb" for="angle-1"><span class="media media--primarch-front" aria-hidden="true"></span><span class="thumb__label">Фронт</span></label>
+              <label class="thumb" for="angle-2"><span class="media media--primarch-side" aria-hidden="true"></span><span class="thumb__label">Сбоку</span></label>
+              <label class="thumb" for="angle-3"><span class="media media--primarch-back" aria-hidden="true"></span><span class="thumb__label">Сзади</span></label>
+              <label class="thumb" for="angle-4"><span class="media media--primarch-detail" aria-hidden="true"></span><span class="thumb__label">Детали</span></label>
+            </div>
+          </div>
+
+          <div class="product__info">
+            <div class="product__intro">
+              <p class="product__realm">Horus Heresy, легион «Кровавые ангелы»</p>
+              <h3 class="product__title">Сангвиний, Примарх IX легиона</h3>
+              <p class="product__text">Подижная фигурка примарха в масштабе 1/18: различные опции оружия , сменные кисти рук и подставка-диорама. Тираж ограничен.</p>
+            </div>
+
+            <ul class="tags" aria-label="Особенности">
+              <li>1/18 Scale</li>
+              <li>Подвижная</li>
+              <li>Коллекционное издание</li>
+              <li>Ограниченный тираж</li>
+            </ul>
+
+            <dl class="spec">
+              <div class="spec__row"><dt>Масштаб</dt><dd>1/18 (18,8&nbsp;см)</dd></div>
+              <div class="spec__row"><dt>Материал</dt><dd>смола, пластик</dd></div>
+              <div class="spec__row"><dt>Покрас</dt><dd>Collector's edition</dd></div>
+              <div class="spec__row"><dt>Артикуляция</dt><dd>28 точек</dd></div>
+              <div class="spec__row"><dt>Тираж</dt><dd>1000 экземпляров</dd></div>
+            </dl>
+
+            <!-- Выбор комплектации: radio + label, панели переключаются селекторами ~ -->
+            <div class="editions">
+              <input class="visually-hidden" type="radio" name="edition" id="ed-standard" checked>
+              <input class="visually-hidden" type="radio" name="edition" id="ed-collector">
+
+              <p class="editions__label">Комплектация</p>
+              <div class="editions__choices">
+                <label class="edition" for="ed-standard">
+                  <span class="edition__name">Standard Edition</span>
+                  <span class="edition__price">$132.50</span>
+                </label>
+                <label class="edition" for="ed-collector">
+                  <span class="edition__name">Collector's Edition</span>
+                  <span class="edition__price">$207</span>
+                </label>
+              </div>
+
+              <div class="edition-panels">
+                <div class="edition-panel edition-panel--standard">
+                  <p class="edition-panel__prepay">Предоплата 30%: <strong>$44</strong></p>
+                  <ul class="checklist">
+                    <li>Фигурка Сангвиния 1/18</li>
+                    <li>Сменные кисти рук: мечи и копьё</li>
+                    <li>Подставка-диорама с держателем</li>
+                    <li>Сертификат подлинности</li>
+                  </ul>
+                  <div class="meter meter--standard">
+                    <p class="meter__label"><span>Standard: забронировано</span><strong>289 из 400</strong></p>
+                    <div class="meter__track" role="progressbar" aria-label="Standard: забронировано 289 из 400" aria-valuemin="0" aria-valuemax="400" aria-valuenow="289"><span class="meter__bar"></span></div>
+                  </div>
+                </div>
+
+                <div class="edition-panel edition-panel--collector">
+                  <p class="edition-panel__prepay">Предоплата 30%: <strong>$69</strong></p>
+                  <ul class="checklist checklist--plus">
+                    <li>Всё из Standard Edition</li>
+                    <li>Улучшенный покрас</li>
+                    <li>Ручная доработка мелких деталей</li>
+                    <li>Премиальная упаковка</li>
+                    <li>Сертификат подлинности Collector's edition</li>
+                  </ul>
+                  <div class="meter meter--collector">
+                    <p class="meter__label"><span>Collector's: забронировано</span><strong>58 из 100</strong></p>
+                    <div class="meter__track" role="progressbar" aria-label="Collector's: забронировано 58 из 100" aria-valuemin="0" aria-valuemax="100" aria-valuenow="58"><span class="meter__bar"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product__buy">
+              <a class="btn btn--primary" href="#contact">Оформить предзаказ</a>
+              <p class="product__note">Приём предзаказов до 30 ноября 2026. Отгрузка во втором квартале 2027 года.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Каталог предзаказов с фильтром по вселенной (radio + label) -->
+        <div class="catalog">
+          <input class="visually-hidden" type="radio" name="universe" id="u-all" checked>
+          <input class="visually-hidden" type="radio" name="universe" id="u-hh">
+          <input class="visually-hidden" type="radio" name="universe" id="u-40k">
+
+          <div class="catalog__head">
+            <h3 class="catalog__title">Ближайшие релизы и наборы</h3>
+            <div class="tabs" role="group" aria-label="Фильтр по вселенной">
+              <label class="tab" for="u-all">Все</label>
+              <label class="tab" for="u-hh">Horus Heresy</label>
+              <label class="tab" for="u-40k">Warhammer 40,000</label>
+            </div>
+          </div>
+
+          <div class="catalog__grid">
+            <article class="card card--hh">
+              <div class="card__media">
+                <div class="media media--catalog-1" role="img" aria-label="Альфарий, масштаб 1/18"></div>
+                <span class="badge badge--hh">Horus Heresy</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Альфарий</h4>
+                <ul class="tags tags--small"><li>1/18 Scale</li><li>XX легион</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">$132.50</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+
+            <article class="card card--hh">
+              <div class="card__media">
+                <div class="media media--catalog-2" role="img" aria-label="Хорус Луперкаль, фигурка 1/18"></div>
+                <span class="badge badge--hh">Horus Heresy</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Хорус Луперкаль</h4>
+                <ul class="tags tags--small"><li>1/18 Scale</li><li>Warmaster</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">$178</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+
+            <article class="card card--hh">
+              <div class="card__media">
+                <div class="media media--catalog-3" role="img" aria-label="Чемпион, Имперские Кулаки"></div>
+                <span class="badge badge--hh">Horus Heresy</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Чемпион, Имперские Кулаки</h4>
+                <ul class="tags tags--small"><li>12.5 cм</li><li>VII легион</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">от $78.50</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+
+            <article class="card card--40k">
+              <div class="card__media">
+                <div class="media media--catalog-4" role="img" aria-label="Марней Калгар, фигурка 1/18"></div>
+                <span class="badge badge--40k">Warhammer 40,000</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Марней Калгар</h4>
+                <ul class="tags tags--small"><li>1/18 Scale</li><li>3 figures</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">$137.50</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+
+            <article class="card card--40k">
+              <div class="card__media">
+                <div class="media media--catalog-5" role="img" aria-label="Имперский рыцарь, Квесторис , фигурка 1/18"></div>
+                <span class="badge badge--40k">Warhammer 40,000</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Имперский рыцарь, Квесторис</h4>
+                <ul class="tags tags--small"><li>1/18 Scale</li><li>with pilot</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">$499</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+
+            <article class="card card--40k">
+              <div class="card__media">
+                <div class="media media--catalog-6" role="img" aria-label="Абаддон Разоритель в масштабе 1/18"></div>
+                <span class="badge badge--40k">Warhammer 40,000</span>
+              </div>
+              <div class="card__body">
+                <h4 class="card__title">Абаддон</h4>
+                <ul class="tags tags--small"><li>1/18 Scale</li><li>Black legion</li></ul>
+              </div>
+              <div class="card__foot">
+                <p class="card__price">$84.50</p>
+                <a class="btn btn--ghost btn--sm" href="#contact">В предзаказ</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================== УСЛУГИ ПО ПОКРАСУ ====================== -->
+      <section class="section section--alt" id="services" aria-labelledby="services-title">
+        <header class="section__head">
+          <h2 class="section__title" id="services-title">Услуги по покрасу армий</h2>
+          <p class="section__lead">Выберите уровень детализации: от армии для игрового стола до модели для витрины.</p>
+        </header>
+
+        <div class="services">
+          <article class="service">
+            <div class="service__top">
+              <div class="service__media">
+                <div class="media media--service-battle-ready" role="img" aria-label="Отряд с покрасом уровня Battle Ready"></div>
+              </div>
+              <h3 class="service__title">Battle Ready</h3>
+              <ul class="tags"><li>Варгейм</li><li>7–10 дней</li></ul>
+              <p class="service__level">
+                <span class="level" role="img" aria-label="Детализация: 3 из 4"><i class="is-on"></i><i class="is-on"></i><i></i><i></i></span>
+                Детализация
+              </p>
+            </div>
+            <ul class="checklist">
+              <li>Грунт и базовые цвета по схеме</li>
+              <li>Смывки и edge highlighting</li>
+              <li>Покраска и текстурирование баз</li>
+              <li>Матовый лак</li>
+            </ul>
+            <div class="service__bottom">
+              <p class="service__price"><strong>от $5</strong> за модель</p>
+              <a class="btn btn--primary" href="#contact">Выбрать уровень</a>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service__top">
+              <div class="service__media">
+                <div class="media media--service-paragon" role="img" aria-label="Модель с покрасом уровня isplay для витрины"></div>
+              </div>
+              <h3 class="service__title">Collector's / Display</h3>
+              <ul class="tags"><li>Витрина</li><li>Конкурсы</li></ul>
+              <p class="service__level">
+                <span class="level" role="img" aria-label="Детализация: 4 из 4"><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i></span>
+                Детализация
+              </p>
+            </div>
+            <ul class="checklist">
+              <li>Многослойные переходы и градиенты</li>
+              <li>Аэрограф, сухая кисть, NMM</li>
+              <li>Ручная роспись лиц, знамён и эмблем</li>
+              <li>Индивидуальная схема и база-диорама</li>
+            </ul>
+            <div class="service__bottom">
+              <p class="service__price"><strong>от $20</strong> за модель</p>
+              <a class="btn btn--primary" href="#contact">Выбрать уровень</a>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service__top">
+              <div class="service__media">
+                <div class="media media--service-assembly" role="img" aria-label="Собранные модели со сменными закачками на магнитах"></div>
+              </div>
+              <h3 class="service__title">Сборка и намагничивание</h3>
+              <ul class="tags"><li>Сборка</li><li>Магниты</li></ul>
+              <p class="service__level">
+                <span class="level" role="img" aria-label="Детализация: 1 из 4"><i class="is-on"></i><i></i><i></i><i></i></span>
+                Детализация
+              </p>
+            </div>
+            <ul class="checklist">
+              <li>Зачистка облоя и подгонка деталей</li>
+              <li>Удаление зазоров, шпатлевка</li>
+              <li>Магниты для сменного вооружения</li>
+              <li>Грунт в цвет будущей схемы</li>
+            </ul>
+            <div class="service__bottom">
+              <p class="service__price"><strong>от $6</strong> за модель</p>
+              <a class="btn btn--primary" href="#contact">Выбрать уровень</a>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service__top">
+              <div class="service__media">
+                <div class="media media--service-conversion" role="img" aria-label="Конверсия модели: изменённая поза и декоративная база"></div>
+              </div>
+              <h3 class="service__title">Конверсии и базирование</h3>
+              <ul class="tags"><li>Конверсии</li><li>Базы</li></ul>
+              <p class="service__level">
+                <span class="level" role="img" aria-label="Детализация: 3 из 4"><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i></span>
+                Детализация
+              </p>
+            </div>
+            <ul class="checklist">
+              <li>Kitbashing и скульптинг</li>
+              <li>Уникальные позы и элементы брони</li>
+              <li>Базы: руины, пустыня, снег, храм</li>
+              <li>Знамёна, декали и гербы легионов</li>
+            </ul>
+            <div class="service__bottom">
+              <p class="service__price"><strong>от $10</strong> за модель</p>
+              <a class="btn btn--primary" href="#contact">Выбрать уровень</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====================== ПРОЦЕСС ====================== -->
+      <section class="section" id="process" aria-labelledby="process-title">
+        <header class="section__head">
+          <h2 class="section__title" id="process-title">Как проходит работа</h2>
+          <p class="section__lead">Четыре шага от заявки до модели у вас на столе.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">I</span>
+            <h3 class="step__title">Заявка и расчёт</h3>
+            <p>Вы описываете задачу: вселенную, число моделей, уровень покраса. В течение суток мы отвечаем ценой и сроками.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">II</span>
+            <h3 class="step__title">Договор и предоплата</h3>
+            <p>Фиксируем цветовую схему, стоимость и дату готовности. После предоплаты от 30% модели встают в очередь.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">III</span>
+            <h3 class="step__title">Сборка и покрас</h3>
+            <p>Работаем этапами и присылаем фото: грунт, базовые цвета, финальные слои. Правки принимаем до нанесения лака.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">IV</span>
+            <h3 class="step__title">Упаковка и доставка</h3>
+            <p>Лакируем, укладываем в ложементы и отправляем курьерской службой со страховкой и трек-номером.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- ====================== ГАЛЕРЕЯ ====================== -->
+      <section class="section section--alt" id="gallery" aria-labelledby="gallery-title">
+        <header class="section__head">
+          <h2 class="section__title" id="gallery-title">Галерея работ</h2>
+          <p class="section__lead">Готовые армии и отдельные модели. Нажмите на фото, чтобы открыть его.</p>
+        </header>
+
+        <div class="gallery">
+          <figure class="shot shot--big" id="g1">
+            <a class="shot__link" href="#photo-1" aria-label="Открыть фото: Дредноут «Левиафан» «Кровавых Ангелов»">
+              <span class="media media--gallery-1" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Дредноут «Левиафан» «Кровавых Ангелов»</span><span class="shot__meta">Horus Heresy</span></figcaption>
+          </figure>
+          <figure class="shot shot--tall" id="g2">
+            <a class="shot__link" href="#photo-2" aria-label="Открыть фото: Космодесантник «Серых Рыцарей»">
+              <span class="media media--gallery-2" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Космодесантник «Серых Рыцарей»</span><span class="shot__meta">Warhammer 40,000</span></figcaption>
+          </figure>
+          <figure class="shot" id="g3">
+            <a class="shot__link" href="#photo-3" aria-label="Открыть фото: Деметрий Тит">
+              <span class="media media--gallery-3" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Деметрий Тит</span><span class="shot__meta">Warhammer 40,000, Ultramarines</span></figcaption>
+          </figure>
+          <figure class="shot" id="g4">
+            <a class="shot__link" href="#photo-4" aria-label="Открыть фото: Константин Вальдор">
+              <span class="media media--gallery-4" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Константин Вальдор</span><span class="shot__meta">Horus Heresy</span></figcaption>
+          </figure>
+          <figure class="shot" id="g5">
+            <a class="shot__link" href="#photo-5" aria-label="Открыть фото: Претор «Детей Императора»">
+              <span class="media media--gallery-5" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Претор «Детей Императора»</span><span class="shot__meta">Horus Heresy</span></figcaption>
+          </figure>
+          <figure class="shot shot--wide" id="g6">
+            <a class="shot__link" href="#photo-6" aria-label="Открыть фото: Отделение «Кровавых Ангелов»">
+              <span class="media media--gallery-6" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Отделение «Кровавых Ангелов»</span><span class="shot__meta">Horus Heresy</span></figcaption>
+          </figure>
+          <figure class="shot" id="g7">
+            <a class="shot__link" href="#photo-7" aria-label="Открыть фото: Космодесантник «Повелителей Ночи»">
+              <span class="media media--gallery-7" aria-hidden="true"></span>
+            </a>
+            <figcaption class="shot__cap"><span class="shot__title">Космодесантник «Повелителей Ночи»</span><span class="shot__meta">Warhammer 40,000</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ====================== ВОПРОСЫ ====================== -->
+      <section class="section" id="faq" aria-labelledby="faq-title">
+        <div class="split">
+          <div class="split__aside">
+            <header class="section__head">
+              <h2 class="section__title" id="faq-title">Частые вопросы</h2>
+              <p class="section__lead">Ответы на то, о чём нас спрашивают чаще всего. Если нужного нет - напишите нам.</p>
+            </header>
+            <a class="btn btn--ghost" href="#contact">Задать свой вопрос</a>
+          </div>
+
+          <div class="faq">
+            <details class="faq__item" open>
+              <summary class="faq__q">Сколько занимает покраска армии?</summary>
+              <p class="faq__a">Battle Ready — в среднем 7–10 дней на отряд из десяти моделей. Display - от двух недель на одну модель. Точные сроки называем после расчёта и записываем в договор.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Как отправить модели и не повредить их?</summary>
+              <p class="faq__a">Упакуйте миниатюры в пенный ложемент или жёсткий контейнер. Если нужна помощь - пришлём инструкцию по упаковке и организуем забор курьером.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Как работает предзаказ фигурок 1/12?</summary>
+              <p class="faq__a">Вы выбираете Standard или Collector's Edition и вносите предоплату 30%. Остаток оплачивается перед отгрузкой. Если тираж не будет выпущен, вернём предоплату полностью.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Можно ли выбрать свою цветовую схему?</summary>
+              <p class="faq__a">Да. Пришлите референсы: фото, арты или коды красок. Мы согласуем схему до начала работ и покажем пробную модель.</p>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Красите ли вы модели других производителей?</summary>
+              <p class="faq__a">Да, принимаем модели Games Workshop и совместимых производителей: пластик, смолу и 3D-печать. Главное - чтобы модель была подготовлена к грунтовке.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================== ФОРМА ОБРАТНОЙ СВЯЗИ ====================== -->
+      <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+        <div class="split split--form">
+          <div class="split__aside">
+            <header class="section__head">
+              <h2 class="section__title" id="contact-title">Заявка на расчёт или предзаказ</h2>
+              <p class="section__lead">Опишите задачу - вернёмся с ценой и сроками в течение 24 часов.</p>
+            </header>
+
+            <div class="brief">
+              <h3 class="brief__title">Что указать в заявке</h3>
+              <ul class="checklist">
+                <li>Вселенную и фракцию</li>
+                <li>Количество моделей</li>
+                <li>Нужный уровень покраса</li>
+                <li>Желаемые сроки</li>
+              </ul>
+            </div>
+
+            <ul class="contacts">
+              <li><a class="contacts__link" href="ramirez@outlook.com">ramirez@outlook.com</a></li>
+              <li><a class="contacts__link" href="https://t.me/" target="_blank" rel="noopener">Telegram: @ordo_pigmenti</a></li>
+              <li class="contacts__note">Ежедневно с 10:00 до 20:00 по Москве</li>
+            </ul>
+          </div>
+
+          
+          <form class="form" aria-labelledby="form-title">
+            <h3 class="form__title" id="form-title">Заявка</h3>
+
+            <div class="field">
+              <label class="field__label" for="f-name">Имя</label>
+              <input class="field__control" type="text" id="f-name" name="name" placeholder="Альфарий" autocomplete="name" required>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-email">Email</label>
+              <input class="field__control" type="email" id="f-email" name="email" placeholder="Alpharius@alpharius.alpharius" autocomplete="email" required>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-type">Тип обращения</label>
+              <select class="field__control" id="f-type" name="type">
+                <option value="paint">Расчёт покраса армии</option>
+                <option value="preorder">Предзаказ фигурки 1/18</option>
+                <option value="assembly">Сборка и намагничивание</option>
+                <option value="other">Другой вопрос</option>
+              </select>
+            </div>
+
+            <fieldset class="field">
+              <legend class="field__label">Вселенная</legend>
+              <div class="choice-row">
+                <label class="choice">
+                  <input type="radio" name="universe-form" value="40k" checked>
+                  <span class="choice__box">Warhammer 40,000</span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="universe-form" value="hh">
+                  <span class="choice__box">Horus Heresy</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label class="field__label" for="f-msg">Сообщение</label>
+              <textarea class="field__control" id="f-msg" name="message" rows="5" placeholder="Альфарий, Альфарий, Альфарий? ==redacted==" required></textarea>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" name="consent" required>
+              <span class="check__box" aria-hidden="true"></span>
+              <span class="check__text">Согласен на обработку персональных данных</span>
+            </label>
+
+            <button class="btn btn--primary btn--block" type="submit">Отправить запрос</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================== ПОДВАЛ ====================== -->
+    <footer class="site-footer">
+      <div class="site-footer__row">
+        <div class="footer-brand">
+          <a class="logo" href="#top" aria-label="Ordo Pigmenti — в начало страницы">
+            <span class="logo__mark" aria-hidden="true"></span>
+            <span class="logo__text">
+              <span class="logo__name">Ordo Pigmenti</span>
+              <span class="logo__tag">Мастерская миниатюр</span>
+            </span>
+          </a>
+          <p class="footer-brand__text">Сборка, покрас и предзаказ миниатюр для Warhammer 40,000 и Horus Heresy.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Разделы сайта">
+          <ul>
+            <li><a href="#preorder">Предзаказ</a></li>
+            <li><a href="#services">Покрас</a></li>
+            <li><a href="#process">Процесс</a></li>
+            <li><a href="#gallery">Портфолио</a></li>
+            <li><a href="#contact">Заявка</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <p class="footer-social__title">Мы в сети</p>
+          <ul class="socials">
+            <li><a class="social" href="https://t.me/" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a class="social" href="https://vk.com/" target="_blank" rel="noopener">VK</a></li>
+            <li><a class="social" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a class="social" href="https://boosty.to/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <figure class="plaque">
+        <div class="ornament" aria-hidden="true"><i></i></div>
+        <blockquote class="plaque__text">
+          <p>In the grim darkness of the far future there is only war</p>
+        </blockquote>
+      </figure>
+
+      <div class="site-footer__bottom">
+        <p>© 2026 Ordo Pigmenti.</p>
+        <p class="disclaimer">Warhammer 40,000 и Horus Heresy</p>
+        <a class="to-top" href="#top">Наверх</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ====================== ЛАЙТБОКСЫ ГАЛЕРЕИ (:target, без JS) ====================== -->
+  <div class="lightbox" id="photo-1" role="dialog" aria-modal="true" aria-label="Боевая рота «Сыны Хоруса»">
+    <a class="lightbox__backdrop" href="#g1" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-1" role="img" aria-label="Боевая рота «Сыны Хоруса» в покрасе Battle Ready"></div>
+      <figcaption class="lightbox__cap">Боевая рота «Сыны Хоруса»: Horus Heresy, Battle Ready</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-7" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-2" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g1" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-2" role="dialog" aria-modal="true" aria-label="Терминатор-ветеран">
+    <a class="lightbox__backdrop" href="#g2" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-2" role="img" aria-label="Терминатор-ветеран в покрасе Paragon"></div>
+      <figcaption class="lightbox__cap">Терминатор-ветеран: Warhammer 40,000, Paragon</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-1" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-3" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g2" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-3" role="dialog" aria-modal="true" aria-label="Орочья орда">
+    <a class="lightbox__backdrop" href="#g3" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-3" role="img" aria-label="Орочья орда в покрасе Battle Ready"></div>
+      <figcaption class="lightbox__cap">Орочья орда: Warhammer 40,000, Battle Ready</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-2" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-4" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g3" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-4" role="dialog" aria-modal="true" aria-label="Кустодиан-страж">
+    <a class="lightbox__backdrop" href="#g4" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-4" role="img" aria-label="Кустодиан-страж в покрасе Paragon"></div>
+      <figcaption class="lightbox__cap">Кустодиан-страж: Horus Heresy, Paragon</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-3" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-5" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g4" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-5" role="dialog" aria-modal="true" aria-label="Инквизитор и сервочереп">
+    <a class="lightbox__backdrop" href="#g5" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-5" role="img" aria-label="Инквизитор с сервочерепом: конверсия"></div>
+      <figcaption class="lightbox__cap">Инквизитор и сервочереп: Warhammer 40,000, конверсия</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-4" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-6" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g5" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-6" role="dialog" aria-modal="true" aria-label="Диорама «Осада собора»">
+    <a class="lightbox__backdrop" href="#g6" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-6" role="img" aria-label="Диорама «Осада собора» в масштабе 1/12"></div>
+      <figcaption class="lightbox__cap">Диорама «Осада собора»: масштаб 1/12, Display</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-5" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-7" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g6" aria-label="Закрыть">&#215;</a>
+  </div>
+
+  <div class="lightbox" id="photo-7" role="dialog" aria-modal="true" aria-label="Некронские бессмертные">
+    <a class="lightbox__backdrop" href="#g7" tabindex="-1" aria-hidden="true"></a>
+    <figure class="lightbox__figure">
+      <div class="media media--gallery-7" role="img" aria-label="Некронские бессмертные в покрасе Battle Ready"></div>
+      <figcaption class="lightbox__cap">Некронские бессмертные: Warhammer 40,000, Battle Ready</figcaption>
+    </figure>
+    <a class="lightbox__btn lightbox__btn--prev" href="#photo-6" aria-label="Предыдущее фото">&#8249;</a>
+    <a class="lightbox__btn lightbox__btn--next" href="#photo-1" aria-label="Следующее фото">&#8250;</a>
+    <a class="lightbox__btn lightbox__btn--close" href="#g7" aria-label="Закрыть">&#215;</a>
+  </div>
+</body>
+</html>
