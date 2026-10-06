@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  background: #f0eee9;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #222222;
+}
+
+.card {
+  max-width: 520px;
+  margin: 24px auto;
+  padding: 28px 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 32px;
+}
+
+#task-form {
+  display: flex;
+  gap: 10px;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: 16px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+#task-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0 14px;
+  border: 2px solid #d0ccbf;
+  color: #222222;
+}
+
+#task-input:focus {
+  outline: none;
+  border-color: #2c5070;
+}
+
+button {
+  padding: 0 18px;
+  border: 2px solid #2c5070;
+  background: #2c5070;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3a6489;
+  border-color: #3a6489;
+}
+
+#warning {
+  min-height: 20px;
+  margin: 8px 0;
+  color: #c0392b;
+  font-size: 14px;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filter-btn {
+  flex: 1;
+  padding: 0 4px;
+  background: #ffffff;
+  color: #2c5070;
+}
+
+.filter-btn:hover {
+  background: #eef2f6;
+  border-color: #2c5070;
+}
+
+.filter-btn.active {
+  background: #2c5070;
+  color: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #ece9e2;
+}
+
+li input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  min-height: 0;
+  cursor: pointer;
+  accent-color: #2c5070;
+}
+
+li span {
+  flex: 1;
+  word-break: break-word;
+}
+
+.delete-btn {
+  background: #ffffff;
+  color: #2c5070;
+}
+
+.delete-btn:hover {
+  background: #eef2f6;
+  border-color: #2c5070;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+#counter {
+  margin: 16px 0 0;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 32px;
+  }
+}
