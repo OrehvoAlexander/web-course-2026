@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Быки и коровы</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Быки и коровы</h1>
+    <p class="rules">Загадано число из 4 разных цифр. <span class="chip chip-bull">зелёная</span> — цифра на своём месте (бык),
+      <span class="chip chip-cow">жёлтая</span> — цифра есть, но стоит не там (корова),
+      <span class="chip chip-miss">серая</span> — такой цифры нет.</p>
+
+    <section class="last" aria-live="polite">
+      <h2>Последняя попытка</h2>
+      <div id="last-guess" class="tiles"></div>
+      <p id="last-result" class="last-result"></p>
+    </section>
+
+    <div class="input-row">
+      <input id="guess-input" type="text" inputmode="numeric" autocomplete="off" maxlength="8" placeholder="например, 1234" aria-label="Ваша попытка">
+      <button id="check-btn" type="button">Проверить</button>
+    </div>
+    <p id="message" class="message" role="alert"></p>
+
+    <div class="stats">Попыток: <strong id="attempts-count">0</strong></div>
+
+    <section>
+      <h2>История</h2>
+      <ul id="history" class="history"></ul>
+    </section>
+
+    <button id="new-game-btn" type="button" class="secondary">Новая игра</button>
+  </main>
+</body>
+</html>
